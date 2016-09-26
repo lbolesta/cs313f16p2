@@ -193,7 +193,7 @@ public class TestList {
 		list.add(55);
 		list.add(77);
 		list.add(66);
-		// TODO use the set method to change specific elements in the list
+		// DONE
 		list.set(1,99);
 		list.set(3,99);
 		list.set(5,99);
@@ -222,7 +222,7 @@ public class TestList {
 		list.add(55);
 		list.add(77);
 		list.add(66);
-		// TODO fix the arguments in the subList method so that the assertion
+		// DONE
 		// passes
 		assertEquals(Arrays.asList(44, 77, 55), list.subList(2, 5));
 	}
